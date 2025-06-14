@@ -13,12 +13,12 @@ function titleCaseEdit(title) {
   // we also have to push the rest of the word.
   // return build up variable.
 
+                               // title = "the alchemist"
+ let strArr = title.split(" "); // [the, alchemist]
 
-  let strArr = title.split(" ");
+ let tempArray = strArr.map(word => word[0].toUpperCase() + word.slice(1));// [The, Alchemist]
 
- let tempArray = strArr.map(word => word[0].toUpperCase() + word.slice(1));
-
- return tempArray.join(" ");
+ return tempArray.join(" "); // "The Alchemist"
 
 
 }
