@@ -2,7 +2,7 @@ class MySolution {
   constructor() {
     this.flag = false; // this is optional to use;
   }
-
+fdfasdf
   binarySearch(nums, target) {
     // Insert code here;
   }
