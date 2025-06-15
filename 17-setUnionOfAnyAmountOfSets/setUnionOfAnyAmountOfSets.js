@@ -1,10 +1,15 @@
 function setUnionOfAnyAmountOfSets(...args) {
   // Insert code here;
+  console.log("This is args-->",...args)
   let mySet = new Set();
 
   for(let element of args) {
-    mySet.add(element);
+    console.log(element)
+    for(let el of element)
+    mySet.add(el);
   }
+      console.log("this is my set--->",mySet)
+
   return mySet;
 }
 
