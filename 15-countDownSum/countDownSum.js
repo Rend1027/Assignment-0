@@ -2,10 +2,10 @@ class MySolution {
   countDownSum(num) {
     // Insert code here;
   
-    if(num === 0) {
+    if(num === 1) {
       return 1;
     } 
-    return num + this.countDownSum(num--)
+    return num + this.countDownSum(num - 1)
   }
 }
 
